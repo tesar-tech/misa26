@@ -26,18 +26,20 @@ body
 #inner-header,#inner-footer
 {
 	/* background-color: #0074C6; */
-	background-color: #123785;
+	background-color: #264ea5af;
 	color: #fcfcfc;
 }
-
 #wrapper
 {
 	 font-family: "wf_segoe-ui_light","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP",Tahoma,Arial,sans-serif; 
-	background: #FFFFFFCC;
 	max-width: 63em ;
 	 margin: auto; 
 	
+}
 
+#inner-content
+{
+	background: #FFFFFFCC;
 }
 
 #hero-image
