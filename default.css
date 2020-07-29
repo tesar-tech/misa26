@@ -1,0 +1,58 @@
+
+html, body
+{
+	height: 100%;
+}
+
+html { 
+	background: url(images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+body
+{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+#inner-header,#inner-content,#inner-footer
+{
+	padding: 20px;
+}
+
+#inner-header,#inner-footer
+{
+	/* background-color: #0074C6; */
+	background-color: #123785;
+	color: #fcfcfc;
+}
+
+#wrapper
+{
+	 font-family: "wf_segoe-ui_light","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP",Tahoma,Arial,sans-serif; 
+	background: #FFFFFFCC;
+	max-width: 63em ;
+	 margin: auto; 
+	
+
+}
+
+#hero-image
+{
+	width: 100%;
+	height: 300px;
+	background-image: url(images/IMG_9875.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 40% 19%;
+
+}
+#hero-image img{
+    flex-shrink: 0;
+	min-height: 100%;
+	max-width: 100%;
+}
+
